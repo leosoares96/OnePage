@@ -1,0 +1,238 @@
+*{
+	margin:0 auto;
+	padding: 0px;
+	font-family:'Calibri';
+	text-decoration:none;
+}
+html{height:100%}
+body{
+	height:100%;
+	background: url(../imagens/bg.png) no-repeat;
+	background-attachment: fixed;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+/*titulos*/
+h1{
+	font-size: 30px;
+	padding-top: 30px;
+	color: #000;
+	text-align:center;
+}
+/*TOPO*/
+header {
+	top:0px;
+	background: #f2f2f2;
+	width:100%;
+	height:70px;	
+	border-bottom:solid 2px #156782;
+}
+
+header img{
+	width:200px;
+	float:left;
+	margin: 7px 0px 0px 15%;
+}
+
+header #menu{
+	float:right;
+	height:100%;
+	width:60%;
+}
+
+header #menu li{
+	list-style:none;
+	float:left;
+	margin-top:27px;
+	margin-left:6%;
+	
+}
+header #menu li a{
+	font-size:16px;
+	letter-spacing:2px;
+	color: #222;
+}
+header #menu li a:hover{
+	color: #156782;
+	border:solid #156782;
+	border-width: 1px 0px;
+	padding: 3px 0px;
+	transition: 0.3s;
+}
+/*HOME*/
+#home{
+	width:100%;
+	min-height: calc(100% - 70px); /**/
+}
+@font-face {
+	font-family: "dolce";
+	src: url("../font/Dolce Vita Light_0.ttf");
+	}
+#home  h2{
+	font-size: 70px;
+	padding-top: 100px;
+	color: #222;
+	text-align:center;
+	font-family:dolce;
+}
+#home  p{
+	width:700px;
+	font-size: 20px;
+	letter-spacing:4px;
+	text-align: justify; 
+	margin-top: 30px;
+	color: #000;
+}
+
+
+/*SERVIÇOES*/
+#servicos{
+	border-top:solid 2px #156782;
+	background-color: #fff;
+	width:100%;
+	height: 100%;
+}
+
+#servicos  p{
+	width:900px;
+	font-size: 20px;
+	letter-spacing:4px;
+	text-align: center; 
+	margin-top: 40px;
+	color: #000;
+}
+#servicos li{
+	border:none;
+	border-radius:20px;
+	margin-top:70px;
+	list-style:none;
+	float:left;
+	text-align: center; 
+	margin-left:4%;
+	width:20%;
+	height: 320px;
+	
+}
+#servicos li h3{
+	padding-top:10px;
+	color: #156782;
+	
+}
+#servicos li p{
+	width:94%;
+	font-size: 18px;
+	letter-spacing:0px;
+	text-align: center; 
+	margin-top: 10px;
+	color: #000;
+	
+}
+/*SOBRE*/
+#sobre{
+	border-top:solid 2px #156782;
+	background-color: rgba(255,255,255,0.5);
+	width:100%;
+	height: 100%;
+}
+/*PORTIFOLIOS*/
+#portfolios{
+	border-top:solid 2px #156782;
+	background-color: rgba(100,100,100,0.5);
+	width:100%;
+	height: 100%;
+}
+#portfolios  p{
+	width:900px;
+	font-size: 20px;
+	letter-spacing:4px;
+	text-align: justify; 
+	margin-top: 30px;
+	color: #000;
+}
+#portfolios li{
+	border:none;
+	border-radius:20px;
+	margin-top:40px;
+	list-style:none;
+	float:left;
+	margin-left:7%;
+	background:#FFF;
+	width:24%;
+	height: 380px;
+	
+}
+#portfolios li img{
+	border:none;
+	border-radius:20px 20px 0px 0px;
+	width:100%;
+	height:280px;
+	
+}
+#portfolios li p{
+	width:90%;
+	font-size: 16px;
+	letter-spacing:1px;
+	text-align: center; 
+	margin-top: 10px;
+	color: #000;
+	
+}
+/*CONTATO*/
+#contato{
+	border-top:solid 2px #156782;
+	background-color: rgba(255,255,255,0.5);
+	width:100%;
+	text-align: center;
+	min-height: calc(100% - 62px);
+}
+#contato .btn{
+	cursor: pointer;
+	border-radius:8px;
+	margin: 5px 0px 0px 560px;
+	padding:6px 20px;
+	background:#8f8f8f;
+	font-size: 20px;
+	border:none;
+	color:#fff;
+}
+#contato .btn:hover{
+	transition: 0.5s;
+	background:#156782;
+	color:#fff;
+}
+#contato form {
+	margin-top: 40px;
+}
+#contato .form {
+	height:30px;
+	width:210px;
+	border-radius:5px;
+	border:solid 1px #333;
+	padding-left:5px;
+}
+#contato textarea {
+	resize:none;
+	margin-top:10px;
+	height:300px;
+	width:645px;
+	border-radius:5px;
+	border:solid 1px #333;
+	padding:5px;
+}
+
+/*RODAPE*/
+footer {
+	background: #156782;
+	border-top:solid 2px #fff;
+	width:100%;
+	position:relative;
+	height:60px;
+	text-align:center;
+	bottom:0px
+}
+footer img{
+	padding:10px;
+	width:130px;
+}
+@media (max-width:480px){}
